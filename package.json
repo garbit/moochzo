@@ -22,9 +22,12 @@
     "url": "https://github.com/garbit/moochzo/issues"
   },
   "homepage": "https://github.com/garbit/moochzo#readme",
-  "dependencies": {},
+  "dependencies": {
+    "mqtt": "^2.18.3"
+  },
   "devDependencies": {
-    "eslint": "^5.3.0"
+    "eslint": "^5.3.0",
+    "nodemon": "^1.18.3"
   },
   "eslintConfig": {
     "extends": "airbnb-base",
